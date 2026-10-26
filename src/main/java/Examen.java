@@ -17,9 +17,9 @@ public class Examen {
             System.out.println("4. Salir");
             System.out.print("Elige una opcion: ");
             opcion = sc.nextInt();
-            sc.nextLine(); // Limpiar el Enter
+            sc.nextLine(); 
 
-            // Estructura de control switch
+
             switch (opcion) {
                 case 1:
                     registrar(sc);
